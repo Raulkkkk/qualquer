@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WikiArc</title>
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="caixa-de-pesquisa">
+            <input type="text" placeholder="🔍 Pesquisar WikiArc..." id="">
+            <button type="button">Pesquisar</button>
+        </div>
+        <div class="links-usuario">
+            <a href="#">Criar conta</a>
+            <a href="#">Login</a>
+        </div>
+    </header>
+
+    <div class="conteudo-principal">
+        <aside class="barra-esquerda">
+            <div class="indicie">
+                <details class="itens-indicie" open="">
+                    <summary class="indicie-item-sumario">História</summary>
+                    <div class="indicie-item-conteudo">
+                        <ul>
+                            <p>Linus Torvalds: o criador do Linux</p><br>
+                            <p>Software Livre vs. Open Source</p><br>
+                            <p>A relevância do Linux no cenário atual</p>
+                        </ul>
+                    </div>
+                </details>
+                <details class="itens-indicie" open="">
+                    <summary class="indicie-item-sumario">Conceito</summary>
+                    <div class="indicie-item-conteudo">
+                        <ul>
+                            <p>Linux</p><br>
+                            <p>O que é Linux?</p><br>
+                            <p>Principais características do Linux</p><br>
+                        </ul>
+                    </div>
+                </details>
+                <details class="itens-indicie" open="">
+                    <summary class="indicie-item-sumario">Desenvolvimento</summary>
+                    <div class="indicie-item-conteudo">
+                        <ul>
+                            <p>Principais distribuições Linux</p><br>
+                            <p>Comandos básicos do Linux</p>
+                        </ul>
+                    </div>
+                </details>
+            </div>
+        </aside>
+
+        <div class="barra-direita">
+            <h1>Linux</h1>
+            <p>Feito por WikiArc, a enciclopédia de alunos da Etec da Zona</p>
+
+            <div class="artigo">
+                <div class="conteudo-artigo">
+                    <p>
+                        <br>
+                        História do Linux e seus
+                        <a href="#grifado">fundamentos</a>
+                    </p>
+
+                    <h2>O que é Linux?</h2>
+                    <p>
+                        
+                            O Linux é um sistema operacional de código aberto baseado no Unix, projetado para ser eficiente, seguro e flexível. Diferentemente de sistemas proprietários, como Windows ou macOS, o Linux permite que qualquer pessoa visualize, modifique e distribua seu código-fonte, possibilitando um alto grau de personalização e adaptação para diferentes necessidades.
+                            <br><br>
+                            O núcleo do Linux, chamado <a href="#grifado">kernel</a>, é responsável por gerenciar o hardware do computador, coordenando o processador, a memória, dispositivos de entrada e saída, e garantindo que diferentes programas possam rodar simultaneamente de maneira eficiente. Por ser modular, o kernel permite que desenvolvedores escolham quais funcionalidades incluir em uma distribuição específica, tornando o Linux altamente adaptável para servidores, desktops, dispositivos móveis, sistemas embarcados e até mesmo dispositivos de Internet das Coisas (IoT).
+                            Além disso, o Linux é distribuído sob a <a href="#grifado">licença GNU GPL (GNU General Public License)</a>, que garante que o software seja livre para ser usado, estudado, modificado e compartilhado. Essa licença protege as liberdades dos usuários e desenvolvedores, permitindo que qualquer melhoria feita no Linux seja compartilhada com a comunidade, contribuindo para a constante evolução, segurança e estabilidade do sistema.
+                    </p>
+
+                    <h2>Principais características do Linux</h2>
+                    <p>
+                        
+                            1. <a href="#grifado">Código aberto e livre:</a> qualquer usuário ou desenvolvedor pode modificar, melhorar ou redistribuir o sistema.
+                            <br><br>
+                            2. <a href="#grifado">Multitarefa e multiusuário:</a> permite que múltiplos usuários rodem diferentes programas ao mesmo tempo de forma segura.
+                            <br><br>
+                            3. <a href="#grifado">Estabilidade e confiabilidade:</a> ideal para servidores que precisam operar continuamente por longos períodos sem reinicializações.
+                            <br><br>
+                            4. <a href="#grifado">Segurança avançada:</a> baseado em permissões de arquivos e usuários, além de atualizações frequentes da comunidade.
+                            <br><br>
+                            5. <a href="#grifado">Flexibilidade:</a> compatível com uma vasta gama de hardwares, desde supercomputadores até pequenos dispositivos embarcados.
+                            <br><br>
+                            6. <a href="#grifado">Licença GNU GPL:</a> garante liberdade de uso, modificação e distribuição, promovendo colaboração e evolução contínua do software.
+                            <br><br>
+                    </p>
+
+                    <p>O Linux não é apenas um kernel; ele faz parte de um ecossistema muito maior, formado por softwares livres que, juntos, compõem sistemas completos conhecidos como <a href="#grifado">distribuições Linux.</a></p>
+
+                    <h2>Linus Torvalds: o criador do Linux</h2>
+                    <p>
+                        Linus Benedict Torvalds nasceu em 28 de dezembro de 1969, em Helsinque, Finlândia. Durante seus estudos em Ciência da Computação na Universidade de Helsinque, Torvalds teve contato com o <a href="#grifado">MINIX</a>, um sistema operacional acadêmico baseado em Unix. Apesar de o MINIX ser educativo, ele apresentava limitações que motivaram Torvalds a criar um kernel mais completo, capaz de rodar em computadores pessoais com processadores 386 e 486.
+                        <br><br>
+                        Em agosto de 1991, Torvalds anunciou seu projeto em um grupo de notícias chamado <a href="#grifado">comp.os.minix</a>, descrevendo-o como um sistema gratuito e aberto para uso pessoal. Inicialmente, o projeto recebeu o nome de <a href="#grifado">Freax</a>, mas foi renomeado para <a href="#grifado">Linux</a> por Ari Lemmke, administrador do servidor FTP que hospedava os arquivos do projeto.
+                        <br><br>
+                        O lançamento inicial do Linux incluía apenas o kernel, mas a partir daí a comunidade global de desenvolvedores começou a contribuir com softwares adicionais, tornando o Linux um sistema operacional completo e funcional.
+                    </p>
+
+                    <h2>Software Livre vs. Open Source</h2>
+                    <p>É comum confundir os termos <a href="#grifado">Software Livre</a> e <a href="#grifado">Open Source</a>, mas eles têm nuances importantes:</p>
+                    <ul>
+                        <li>
+                            <a href="#grifado">Software Livre</a>: Defende que os usuários devem ter <a href="#grifado">liberdade para executar, estudar, modificar e compartilhar</a> o software. É uma filosofia ética que prioriza a liberdade do usuário. A Free Software Foundation (FSF), criada por Richard Stallman, é uma das principais organizações defensoras desse movimento.
+                        </li>
+                        <li>
+                            <a href="#grifado">Open Source</a>: Foca mais na <a href="#grifado">eficiência do desenvolvimento colaborativo</a> e na qualidade do software, sem enfatizar a dimensão ética da liberdade. A Open Source Initiative (OSI) promove o uso de softwares cujo código pode ser auditado e modificado.
+                        </li>
+                    </ul>
+                    <p>Embora os dois conceitos promovam acesso ao código-fonte, o Software Livre valoriza a liberdade como princípio, enquanto o Open Source valoriza os benefícios práticos do código aberto.</p>
+
+                    <h2>Principais distribuições Linux</h2>
+                    <p>O Linux é distribuído por meio de diferentes sistemas completos, chamados <a href="#grifado">distribuições</a>. Cada distribuição combina o kernel Linux com aplicativos, gerenciadores de pacotes, interfaces gráficas e outras ferramentas. Entre as mais populares estão:</p>
+                    <ol>
+                        <li><a href="#grifado">Ubuntu</a>: Destinado a iniciantes e usuários domésticos, é intuitivo e possui grande suporte da comunidade.</li><br>
+                        <li><a href="#grifado">Debian</a>: Conhecido por sua estabilidade e robustez, é muito usado em servidores.</li><br>
+                        <li><a href="#grifado">Fedora</a>: Foca em tecnologias de ponta, ideal para desenvolvedores e entusiastas de inovação.</li><br>
+                        <li><a href="#grifado">Arch Linux</a>: Para usuários avançados que desejam total controle e personalização.</li><br>
+                        <li><a href="#grifado">Linux Mint</a>: Baseada no Ubuntu, oferece uma experiência amigável, próxima ao Windows.</li><br>
+                        <li><a href="#grifado">Kali Linux</a>: Voltada para segurança e testes de penetração, muito utilizada por especialistas em cibersegurança.</li><br>
+                        <li><a href="#grifado">openSUSE</a>: Voltada para administração de sistemas e servidores corporativos.</li>
+                    </ol>
+                    <p>Cada distribuição atende a perfis de usuários distintos, desde iniciantes até profissionais de TI e desenvolvedores avançados.</p>
+
+                    <h2>Comandos básicos do Linux</h2>
+                    <p>O terminal é uma das ferramentas mais poderosas do Linux. Mesmo em distribuições gráficas, dominar comandos é essencial para administração, automação de tarefas e solução de problemas. Alguns comandos básicos incluem:</p>
+                    <ul>
+                        <li><a href="#grifado">ls</a> – lista os arquivos e diretórios dentro de uma pasta.</li>
+                        <li><a href="#grifado">cd</a> – muda o diretório atual de trabalho.</li>
+                        <li><a href="#grifado">pwd</a> – mostra o caminho completo (path) da pasta atual.</li>
+                        <li><a href="#grifado">mkdir</a> – cria um novo diretório (pasta).</li>
+                        <li><a href="#grifado">rmdir</a> – remove diretórios ou arquivos.</li>
+                        <li><a href="#grifado">touch</a> – cria um novo arquivo vazio.</li>
+                        <li><a href="#grifado">cat</a> – mostra o conteúdo de arquivos de texto.</li>
+                        <li><a href="#grifado">echo</a> – exibe uma mensagem ou grava texto em arquivos.</li>
+                        <li><a href="#grifado">man</a> – mostra o manual de qualquer comando no Linux.</li>
+                        <li><a href="#grifado">clear</a> – limpa a tela do terminal.</li>
+                        <li><a href="#grifado">chmod</a> – altera permissões de arquivos.</li>
+                        <li><a href="#grifado">cp</a> – copia arquivos e diretórios.</li>
+                        <li><a href="#grifado">mv</a> – move ou renomeia arquivos ou diretórios.</li>
+                    </ul>
+                    <p>Dominar esses comandos permite ao usuário explorar funcionalidades avançadas e maximizar a eficiência do sistema.</p>
+
+                    <h2>A relevância do Linux no cenário atual</h2>
+                    <p>O Linux se tornou uma peça central na infraestrutura tecnológica mundial. Sua relevância pode ser vista em diferentes áreas:</p>
+                    <ul>
+                        <li><a href="#grifado">Servidores e data centers</a> A maioria dos servidores web e de serviços em nuvem roda Linux devido à estabilidade e segurança do sistema.</li>
+                        <li><a href="#grifado">Segurança cibernética</a> Auditar e controlar sistemas Linux é essencial em ambientes que exigem proteção de dados e integridade.</li>
+                        <li><a href="#grifado">Desenvolvimento de software</a> Ferramentas como o Git (também criado por Torvalds) e ambientes de desenvolvimento modernos funcionam perfeitamente no Linux.</li>
+                        <li><a href="#grifado">Internet das Coisas (IoT)</a> Distribuições leves permitem a criação de dispositivos inteligentes e conectados de forma eficiente.</li>
+                        <li><a href="#grifado">Dispositivos móveis</a> Sistemas como Android e Chrome OS têm o kernel Linux como base, mostrando sua flexibilidade e adaptação a diferentes plataformas.</li>
+                        <li><a href="#grifado">Supercomputadores</a> Mais de 95% dos supercomputadores do mundo usam Linux.</li>
+                    </ul>
+                    <p>O Linux continua a crescer, sendo utilizado desde supercomputadores até smartphones, e sua filosofia de código aberto impulsiona inovação em escala global.</p>
+                </div>
+
+                <div class="artigo-imagem">
+                    <div class="folhetos-informativos">
+                        <h3>Linux</h3>
+                        <img src="linux.png" alt="Imagem1" width="100px">
+                        <h3><a href="#grifado">Tux</a>, o pinguim, o mascote do Linux.</h3>
+                        <ul>
+                            <p class="grupo-de-fatos">Produção: Linus Torvalds, Comunidade</p>
+                            <p class="grupo-de-fatos">Linguagem: Principalmente C e Assembly</p>
+                            <p class="grupo-de-fatos">Lançamento: 17 de setembro de 1991; há 34 anos</p>
+                            <p class="grupo-de-fatos">Versão estável: Linux Mint 22.2 "Zara"</p>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer></footer>
+</body>
+</html>

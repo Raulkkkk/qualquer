@@ -1,0 +1,170 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+
+}
+
+.artigo a{
+    color: #d4ff00;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccff00;
+    color: black;
+    padding: 10px 20px;
+}
+
+.logo img{
+    padding-left: 16px;
+    max-height: 50px;
+}
+
+.caixa-de-pesquisa input{
+    padding: 5px;
+    border: 1px solid #ccff00;
+}
+
+.caixa-de-pesquisa button{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.links-usuario a{
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.conteudo-principal{
+    display: flex;
+}
+
+.barra-esquerda{
+    flex: 1;
+    padding: 20px;
+    color: #d4ff00;
+}
+
+.indice{
+    display: flex;
+    flex-direction: column;
+}
+
+.indicie-item-sumario{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.indicie-item-conteudo{
+    padding: 10px;
+}
+
+.barra-direita{
+    flex: 4;
+    padding: 20px;
+}
+
+.artigo{
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.artigo-conteudo{
+    flex: 3;
+    padding-right: 16px;
+}
+
+.artigo-imagem{
+    flex: 1;
+    text-align: center;
+}
+
+.grupo-de-fatos{
+    background-color: black;
+    padding: 20px;
+    border: 1px solid white;
+}
+
+.grupo-de-fatos h3{
+    font-style: 18px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+
+.grupo-de-fatos ul{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.grupo-de-fatos p{
+    color: #ccff00;
+}
+
+.barra-direita h1{
+    max-width: 900px;
+    font-style: 36px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.barra-direita h2 {
+    font-style: 24px;
+    border-bottom: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.barra-direita p{
+    font-style: 16px;
+    line-height: 1.5;
+}
+
+.barra-direita img{
+    max-width: 100%;
+    height: auto;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    color: white;
+}
+
+body{
+    background-color: rgb(58, 58, 58);
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+ul{
+    color: white;
+}
