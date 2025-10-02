@@ -134,13 +134,6 @@ header {
     height: auto;
 }
 
-footer{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
-}
-
 p{
     color: white;
 }
