@@ -168,3 +168,63 @@ li{
 ul{
     color: white;
 }
+
+@media (max-width: 768px) {
+.conteudo-principal {
+        flex-direction: column; 
+    }
+
+    .barra-esquerda {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .barra-direita {
+        flex: 1;
+        padding: 10px;
+    }
+
+    .artigo {
+        flex-direction: column;
+    }
+
+    .artigo-conteudo {
+        padding-right: 0;
+    }
+
+    .logo img {
+        max-height: 40px;
+    }
+
+    .caixa-de-pesquisa input {
+        width: 100%; 
+        margin-bottom: 10px;
+    }
+
+    .caixa-de-pesquisa button {
+        width: 100%; 
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .links-usuario {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
